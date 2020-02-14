@@ -1,0 +1,109 @@
+.App-logo {
+  animation: spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.radioCustomLabel {
+  position: relative;
+  width: 100% !important;
+  margin: 0;
+  padding: 0px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.questionCount {
+  float:right
+}
+.answerOption {
+  width: 35%;
+  display: inherit;
+  padding: 15px;
+  text-align: left;
+}
+.answerOptions {
+  padding: 0;
+}
+.next-btn, 
+.Previous-btn,
+.showResult {
+  padding: 10px 20px;
+  border-radius: 10%;
+  background-color: #111;
+  color: #fff;
+}
+.result-link {
+  float: left;
+  background-color: #111 !important;
+  color: #fff;
+  padding: 4px;
+  width: 100px;
+  margin-right: 20px;
+}
+.resultHead {
+   font-size: 25px;
+   text-align: center;
+   font-weight: bold;
+   margin-top: 0;
+}
+.status_correct{
+  background-color: green;
+  color: #fff;
+  padding: 5px;
+}
+.status_incorrect{
+  background-color: Red;
+  color: #fff;
+  padding: 5px;
+}
+.list-grp {
+  text-align: left;
+    line-height: 1.5;
+    padding: 10px;
+    background: #ccc;
+}
+.quiz-story{
+  padding: 30px;
+  width: 70%;
+  background-color: #ccc;
+  margin: auto;
+  min-height: 400px;
+  border-radius: 10px;
+}
+.bottom-footer{
+  width: 25%;
+  margin-top: 30px;
+}
+li input {
+  float: left;
+  margin-top: 6px;
+}
+li label {
+  margin-left: 10px;
+}
+.popup-content  {
+  max-height: 90%;
+  width: 80% !important;
+  overflow: auto;
+}
+.endPage {
+  padding: 30px;
+  width: 70%;
+  background-color: #ccc;
+  margin: auto;
+  text-align: center;;
+}
